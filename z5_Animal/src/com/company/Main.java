@@ -22,5 +22,9 @@ public class Main {
         Cat.getAge();
         Dog.getAge();
         Zebra.getAge();
+
+        System.out.println(Cat.id);
+        System.out.println(Dog.id);
+        System.out.println(Zebra.id);
     }
 }

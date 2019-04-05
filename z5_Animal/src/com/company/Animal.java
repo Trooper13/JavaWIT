@@ -7,11 +7,15 @@ public class Animal {
     private String _name;
     private int _yearOfBorn;
     static String zoo;
+    //z7 - dodanie pól counter i id, przypisanie do id kolejnego numeru
+    static int counter = 0;
+    final int id;
 
     public Animal(String name, int yearOfBorn)
     {
         _name = name;
         _yearOfBorn = yearOfBorn;
+        id = counter++;
     }
 
     public void getAge()
