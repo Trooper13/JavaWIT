@@ -28,3 +28,6 @@ hs_err_pid*
 
 # End of https://www.gitignore.io/api/java
 .idea/workspace.xml
+z5_Animal/.idea/workspace.xml
+z5_Animal/.idea/misc.xml
+z5_Animal/.idea/encodings.xml
