@@ -2,7 +2,7 @@ package com.company;
 
 public class Tiger extends Animal
 {
-    private static int _counter = 0;
+    static int _counter = 0;
     final int _id;
 
     Tiger()

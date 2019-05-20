@@ -2,6 +2,10 @@ package com.company;
 
 public class Frog extends Animal
 {
+    Frog()
+    {
+    }
+
     Frog(String name, int yearOfBorn)
     {
         super(name, yearOfBorn);

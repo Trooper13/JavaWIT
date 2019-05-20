@@ -12,8 +12,8 @@ public class Animal {
     private int _eatedFoodWeight;
     // przespany czas w minutach
     private int _sleepedTime;
-    //z7 - dodanie pól counter i id, przypisanie do id kolejnego numeru
-    private static int _counter = 0;
+    //z7 - dodanie pól counter i id, przypisanie do id kolejnego numeru, pamiętać że _counter musi być zawsze polem statycznym
+    public static int _counter = 0;
     final int id;
 
     Animal()
